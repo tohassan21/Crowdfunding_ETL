@@ -1,11 +1,10 @@
 ﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- Link to schema: https://app.quickdatabasediagrams.com/#/d/aDPYck
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
-
-DROP TABLE IF EXISTS "contacts";
-DROP TABLE IF EXISTS "category";
-DROP TABLE IF EXISTS "subcategory";
 DROP TABLE IF EXISTS "campaign";
+DROP TABLE IF EXISTS "subcategory";
+DROP TABLE IF EXISTS "category";
+DROP TABLE IF EXISTS "contacts";
 
 CREATE TABLE "campaign" (
     "cf_id" INT   NOT NULL,
